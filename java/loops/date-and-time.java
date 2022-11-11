@@ -1,4 +1,3 @@
-08 05 2015
 import java.util.*;
 
 public class date-and-time {
