@@ -1,10 +1,10 @@
 n = int(input())
-a = set(map(int,input().split()))
+s = set(map(int,input().split()))
 for i in range(int(input())):
-    op , op_n = input().split()
+    n1 , s2 = input().split()
     l = set(map(int,input().split()))
-    eval(f'a.{op}({l})')
-print(sum(a))
+    eval(f's.{n1}({l})')
+print(sum(s))
 #-------------------------------------------------- Method 2:
 n = int(input())
 s = set(map(int, input().split()))
