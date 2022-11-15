@@ -1,12 +1,2 @@
-
-
-import collections 
-
-n=int(input())
-l=[]
-for i in range(n):
-	l.append((input()))
-
-d=collections.Counter(l)
-print(len(set(l)))
-print(*d.values())
+#list 
+l=[1,2,3,4,5,6,7,8,9,10]
