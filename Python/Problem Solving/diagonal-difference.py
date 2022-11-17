@@ -9,5 +9,4 @@ for i in range(len(arr)):
 		for k in range(len(arr),0,-1):
 			if i==len(arr)-k:
 				d+=(arr[i][k-1])
-print( abs(s-d))	
-print(d)
+print( abs(s-d))
