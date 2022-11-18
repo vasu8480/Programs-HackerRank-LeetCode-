@@ -1,13 +1,16 @@
-a,b=[2, 4], [16, 32, 96]
-s=0
-for i in range(max(a), min(b)+1):
-		for k in a:
-				if i % k != 0:
-						break	
-		else:
-				for k in b:
-						if k % i != 0:
-								break
-				else:
-						s+=1
-print(s)
+scores=[10 ,5 ,20 ,20 ,4 ,5 ,2 ,25 ,1]
+h=0
+e,o=0,0
+l=0
+for i in range(len(scores)):
+    if i==0:
+        h=scores[i]
+        l=scores[i]
+    if scores[i]>h:
+        e+=1
+        h=scores[i]
+    elif scores[i]<l:
+        o+=1
+        l=scores[i]
+print(e,o)
+
