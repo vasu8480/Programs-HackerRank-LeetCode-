@@ -1,12 +1,18 @@
-ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+#prime 
+import time
+t1 = time.time()
+print(t1)
+def prime(a,b):
+    for i in range(a+1,b):
+        if i>1:
+            for j in range(2,i):
+                if i%j==0:
+                    break
+            # else:
+            #     print(i)
 
-s={}.fromkeys(ar,0)
-for i in ar:
-		s[i]+=1
-print(s)
-c=0
-for i in s.values():
-	while i>=2:
-		c+=1
-		i=i-2
-print(c)
+prime(1,12554)
+
+
+t2=time.time()
+print(t2-t1)

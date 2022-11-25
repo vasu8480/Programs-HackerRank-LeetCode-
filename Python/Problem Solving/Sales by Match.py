@@ -10,3 +10,8 @@ for i in s.values():
 		c+=1
 		i=i-2
 print(c)
+#----------------------------------------------------------------------#
+count = 0
+for x in set(ar):
+	count += ar.count(x)//2
+print(count)
