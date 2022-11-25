@@ -1,5 +1,3 @@
-import time 
-t1 = time.time()
 #seive of eratosthenes
 def sieve(n):
 		if n<=2: # if n is less than 2, return empty list
@@ -18,6 +16,4 @@ def sieve(n):
 
 		
 
-print(sieve(12554))
-t2=time.time()
-print(t2-t1)
+print(sieve(12554))  # runtime 0.0009970664978027344
