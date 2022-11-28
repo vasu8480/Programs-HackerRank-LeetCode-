@@ -1,8 +1,14 @@
-import collections 
-def lonelyinteger(a):
-    a=collections.Counter(a)
-    for i in a:
-        if a[i]==1:
-            return i
+l,r=11,100
+
+l=min(l,r)
+r=max(l,r)
+s=0
+for i in range(l,r+1):
+    for j in range(l,r+1):
+        k=i^j
+        if k>s:
+            s=k
+print(s)
     
-print(lonelyinteger([1, 1, 2])) # 2
+
+    
