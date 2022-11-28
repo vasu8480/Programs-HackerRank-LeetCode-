@@ -3,3 +3,4 @@ def superDigit(n, k):
         return n
     else:
         return superDigit(str(sum([int(i) for i in n]) * k), 1)
+print(superDigit('148', 3))
