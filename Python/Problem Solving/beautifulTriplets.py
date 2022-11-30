@@ -10,5 +10,11 @@ def beautifulTriplets(d, arr):
 		return c
 print(beautifulTriplets(3,[1, 2, 4, 5, 7, 8, 10]))
 
-
-
+#----------------------------------------------------------------
+def beautifulTriplets(d, arr):
+    count = 0
+    for i in arr:
+        if i + d in arr and i + 2*d in arr:
+            count += 1
+    return count
+print(beautifulTriplets(3,[1, 2, 4, 5, 7, 8, 10]))
