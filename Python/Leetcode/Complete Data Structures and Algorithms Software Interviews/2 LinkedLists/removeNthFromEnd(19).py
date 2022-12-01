@@ -18,3 +18,4 @@ class Solution:
         leftPointer.next = leftPointer.next.next #skip the leftPointer.next so it would be out of LinkedList
         
         return head
+print(Solution().removeNthFromEnd([1,2,3,4,5], 2))
