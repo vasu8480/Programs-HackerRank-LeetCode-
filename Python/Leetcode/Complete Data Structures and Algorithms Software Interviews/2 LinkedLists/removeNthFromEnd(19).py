@@ -1,5 +1,3 @@
-
-
 class Solution:
     def removeNthFromEnd(self, head, n: int):
         
@@ -20,5 +18,3 @@ class Solution:
         leftPointer.next = leftPointer.next.next #skip the leftPointer.next so it would be out of LinkedList
         
         return head
-
-print(Solution().removeNthFromEnd([1,2], 2))
