@@ -1,24 +1,17 @@
-
-
-class Solution:
-    def removeNthFromEnd(self, head, n: int):
+def findDuplicate(self, nums: List[int]) -> int:
+        slowPointer = 0
+        fastPointer = 0
+        while True:
+            slowPointer = nums[slowPointer]
+            fastPointer = nums[nums[fastPointer]]
+            if slowPointer == fastPointer:
+                break
         
-        leftPointer = head
-        rightPointer = head
+        secondSlowPointer = 0
         
-        while n > 0 and rightPointer: #there is n gap between two pointers
-            rightPointer = rightPointer.next
-            n -= 1
-        
-        while rightPointer and rightPointer.next:  # stop when rightPointer.next is None.
-            leftPointer = leftPointer.next
-            rightPointer = rightPointer.next
-                
-        if leftPointer == head and not rightPointer: #if we omit this, it won't work on the edge case of one node
-            return head.next
-
-        leftPointer.next = leftPointer.next.next #skip the leftPointer.next so it would be out of LinkedList
-        
-        return head
-
-print(Solution().removeNthFromEnd([1,2], 2))
+        while True:
+            slowPointer = nums[slowPointer]
+            secondSlowPointer = nums[secondSlowPointer]
+            if slowPointer == secondSlowPointer:
+                return slowPointer
+								
