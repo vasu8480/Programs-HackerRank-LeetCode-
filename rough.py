@@ -1,5 +1,8 @@
-def designerPdfViewer(k,a):
-		return "NO" if len([i for i in a if i<=0])>=k else "YES"
-		
-print(designerPdfViewer(3 ,[-1, -3, 4, 2]))
-		
+from bisect import bisect_right as br
+def climbingLeaderboard(ranked, player):
+	ranked= sorted(set(ranked))
+	grades= list(range(len(ranked)+1,0,-1))
+	print([grades[br(ranked,i)] for i in player])
+	return [(grades[br(ranked, i)]) for i in player]
+
+print(climbingLeaderboard([100, 100, 50, 40, 40, 20, 10], [5, 25, 50, 120]))
