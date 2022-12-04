@@ -1,3 +1,3 @@
-def cutTheSticks(arr):
-    
-print(cutTheSticks([1 ,2, 3, 4, 3 ,3 ,2 ,1]))
+def flippingBits(n):
+    return n ^ 0xffffffff # 32-bit unsigned integer
+print(flippingBits(802743475))
