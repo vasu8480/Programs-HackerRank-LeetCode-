@@ -1,10 +1,4 @@
-def viralAdvertising(n):
-    shared = 5
-    liked = 0
-    cumulative = 0
-    for i in range(n):
-        liked = shared // 2
-        cumulative += liked
-        shared = liked * 3
-    return cumulative
-print(viralAdvertising(3))
+def circularArrayRotation(a, k, queries):
+    # Write your code here
+    return [a[(i-k)%len(a)] for i in queries]
+print(circularArrayRotation([1,2,3],2,[0,1,2]))
