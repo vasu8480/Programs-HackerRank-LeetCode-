@@ -9,6 +9,4 @@ def pageCount(grades):
 			l.append(i)
 	return l
 	
-print(pageCount([73,67,
-38,
-33]))
+print(pageCount([73,67,38,33]))
