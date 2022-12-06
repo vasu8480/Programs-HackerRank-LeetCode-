@@ -8,35 +8,41 @@
 # o However, if there is any tax saving investment, then there is further exemption of up to 1 lac annually. This would mean that by having tax saving investments of about 1 lac an income of 2 lacs is non-taxable.
 # • Display the annual gross, annual net, and tax payable.
 
-basic=27083
-special_allowances=0.25*basic
-bonus=0.7*basic
-monthly_tax_saving_investments=0
+Basic_Salary=27083
 
-gross_monthly_salary=basic+special_allowances
+special_allowances=0.25*Basic_Salary
+bonus=0.7*Basic_Salary
+monthly_tax_saving_investments=5000
 
+gross_monthly_salary=Basic_Salary+special_allowances
 annual_salary=12*(gross_monthly_salary+bonus)
 
-if monthly_tax_saving_investments>100000:
-		monthly_tax_saving_investments=100000
-		annual_tax_saving_investments=12*monthly_tax_saving_investments
-else:
-	annual_tax_saving_investments=12*monthly_tax_saving_investments
+Yearly_tax_saving_investments=monthly_tax_saving_investments*12
 
+if Yearly_tax_saving_investments>=100000:
+		Yearly_tax_saving_investments=100000
+		annual_tax_saving_investments=Yearly_tax_saving_investments
+else:
+	annual_tax_saving_investments=Yearly_tax_saving_investments
 
 annual_salary=annual_salary+bonus-(annual_tax_saving_investments)
 
+print("Annual Salary is",annual_salary)
 tax=0
 if annual_salary<=100000:
-		tax=0
+	tax=0
 elif annual_salary<=150000:
-		tax=0.2*(annual_salary-100000)
+	tax=0.2*(annual_salary-100000)
 else:
-		tax=0.2*50000+0.3*(annual_salary-150000)
-	
+	tax=0.2*(150000-100000)+0.3*(annual_salary-150000)
 
-annual_net_salary=annual_salary-tax
 
-print("Annual Gross Salary:",annual_salary)
+annual_salary=annual_salary-tax
+
+annual_gross_salary=annual_salary+tax+annual_tax_saving_investments
+
+
+annual_net_salary=annual_salary
+print("Annual Gross Salary is:",annual_gross_salary)
 print("Annual Net Salary:",annual_net_salary)
 print("Tax Payable:",tax)
