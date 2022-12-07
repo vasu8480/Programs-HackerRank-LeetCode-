@@ -11,7 +11,6 @@ class Solution:
             return
         (s[start],s[end]) = (s[end],s[start])
         self.reverseRecursive(s,start+1,end-1)
-
 s=Solution()
 l=["h","e","l","l","o"]
 print(s.reverseString(l))
