@@ -1,0 +1,18 @@
+H.A.L.T - hungry, angry, loney,time 
+
+cob-closé of bussiness
+tbd-to be determined
+lat-late
+tba-to be announced
+tbc-to be continued
+ctn-cant talk now
+tia-thnks in adavance
+qt-quiet
+aatn-are you there now
+cc- carbon copy
+bcc- blind carbon copy
+
+#You have made 50% progress in the design of the project; you realize that something has not gone as predicted and the initial testing of the code has failed. You have lost some days and the client is doubtful that the launch would not be done on time. 
+Write an email to the client assuring that the project would be completed on the said date.
+
+subject :
