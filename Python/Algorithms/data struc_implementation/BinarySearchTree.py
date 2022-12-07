@@ -60,7 +60,7 @@ class BinarySearchTree:
             currentNode = currentNode.right
         return currentNode
     def __str__(self) -> str:
-        
+        return str(self.root.value)
 
 myTree = BinarySearchTree()
 myTree.insert(10)
