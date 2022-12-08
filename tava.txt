@@ -12,7 +12,37 @@ aatn-are you there now
 cc- carbon copy
 bcc- blind carbon copy
 
-#You have made 50% progress in the design of the project; you realize that something has not gone as predicted and the initial testing of the code has failed. You have lost some days and the client is doubtful that the launch would not be done on time. 
-Write an email to the client assuring that the project would be completed on the said date.
+#Tavant has a new client who wants to create a business website. You had a client requirement gathering and you are supposed to send the Minutes of the Meeting (MOM) to the client. The requirements provided by the clients are as below:
+Purpose – Business, online shopping.Color Scheme – maximum 3-4 colors, 2 can be black or white, preferably white. Other 2 can match with the logo.Font size – depending on the content and material. Must be professional and easily readable. Images – eye catching which gives a wow factor. Photos will be provided by the clients. Mock-ups – A pen and paper sketch would be provided in a weeks’ time. Help required from the developers also on this. Need to see some samples and would want some suggestions.Text Content – The details will be provided in word format in 2 days.Logo – Already purchased. Need it on the right-side top.Domain and Hosting – Not purchased yet. Would be requiring it from Tavant’s side.
 
-subject :
+subject: Minutes of meeting(MOM) with the client on week1.
+Dear Client,
+	Thank you for choosing Tavant. We appreciate your trust.
+	We attended the meeting with our team. During Minutes of the Meeting (MOM), The following requirements were captured for an online shopping site:
+	*The purpose of the website is to sell products online.
+	*Websites should be white or black, and max 3-4 colors.
+	*The font size should be professional and easily readable.
+	*It is important to have eye-catching images
+	*Our developers will provide mockups in a week time.
+	*The client will provide the text content in two days.
+	*The logo is already purchased.
+	*The client has not purchased the domain and hosting, Tavant will provide them.
+	
+	Please review the above minutes and let us know if any changes need to be made. We are looking forward to your confirmation within two days.
+
+Thank you and Regards,
+Nurukurthi Vasu,
+p.s. I am attaching the minutes of the meeting for your reference.
+18A91A0498@aec.edu.in
+Morning batch,
+week 1.
+
+
+
+
+
+
+
+
+
+
