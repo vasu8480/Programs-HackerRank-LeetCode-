@@ -32,7 +32,3 @@ class Solution:
         self.max_sum = max(self.max_sum, node.val + left + right)
         return node.val + max(left, right)
 
-    
-    
-    
-
