@@ -14,9 +14,7 @@ print(codec.decode(codec.encode("https://leetcode.com/problems/design-tinyurl"))
 print(codec.encode("https://leetcode.com/problems/design-tinyurl"))
 print(codec.decode(codec.encode("https://leetcode.com/problems/design-tinyurl")))
 #--------------------------------------------------------------------------------------------------------------
-
 class Codec:
-
     def __init__(self):
         self.encodingMap = {}
         self.decodingMap = {}
