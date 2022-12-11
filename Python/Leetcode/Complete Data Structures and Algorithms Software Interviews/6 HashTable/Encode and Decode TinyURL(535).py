@@ -11,6 +11,8 @@ class Codec:
         return shortUrl
 codec=Codec()
 print(codec.decode(codec.encode("https://leetcode.com/problems/design-tinyurl")))
+print(codec.encode("https://leetcode.com/problems/design-tinyurl"))
+print(codec.decode(codec.encode("https://leetcode.com/problems/design-tinyurl")))
 #--------------------------------------------------------------------------------------------------------------
 
 class Codec:
@@ -33,3 +35,4 @@ class Codec:
 codec=Codec()
 print(codec.decode(codec.encode("http://nurukurthivasu.tk")))
 print(codec.encode("http://nurukurthivasu.tk"))
+print(codec.decode('https://tinyurl.com/1'))
