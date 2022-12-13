@@ -38,12 +38,13 @@ class LinkedList:
         return current.value #return the value of the node at the given index
 
     def reverse(self, node): #reverse the list - 95->59->24->12->69->19->38->99
-        if node.next == None: 
+        if node==None: #if the list is empty
+            return
+        if node.next == None: #if the list has only one node
             self.root = node
             return
         self.reverse(node.next) #recursively call the reverse function
-        q = node.next 
-        q.next = node 
+        node.next.next = node 
         node.next = None
 
     def deleteNode(self, position): #delete the node at the given position
