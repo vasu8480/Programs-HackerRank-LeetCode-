@@ -5,6 +5,37 @@ class Solution:
         return points[:k]
 
 print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
+#--------------------------------------------------------------------------------------------
+
+import heapq
+class Solution:
+    def kClosest(self, points, k):
+        minHeap = []
+        for x,y in points:
+            distanceToOrigin = (x**2) + (y**2) #do not have to take sqrt because we will compare anyway
+            minHeap.append([distanceToOrigin,x,y]) #append distance as first element bc python will evaluate it by default when heapified
+        heapq.heapify(minHeap)
+        result = []
+        while k > 0:
+            distance, x, y = heapq.heappop(minHeap)
+            result.append([x,y])
+            k -= 1
+        return result
+print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
+#---------------------------------------------------------------------------------------------
+import heapq
+class Solution:
+    def kClosest(self, points, k):
+        heap = []
+        for x, y in points:
+            dist = x**2 + y**2
+            if len(heap) < k:
+                heapq.heappush(heap, (-dist, x, y))
+            else:
+                heapq.heappushpop(heap, (-dist, x, y))
+                
+        return [[x, y] for dist, x, y in heap]
+print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
 
 #-------------------------------------------------------------------------------------------------
 class Solution:
@@ -36,35 +67,4 @@ class Solution:
                 j += 1
             return result
         return divideAndConquer(points)[:k]
-print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
-#--------------------------------------------------------------------------------------------
-
-import heapq
-class Solution:
-    def kClosest(self, points, k):
-        minHeap = []
-        for x,y in points:
-            distanceToOrigin = (x**2) + (y**2) #do not have to take sqrt because we will compare anyway
-            minHeap.append([distanceToOrigin,x,y]) #append distance as first element bc python will evaluate it by default when heapified
-        heapq.heapify(minHeap)
-        result = []
-        while k > 0:
-            distance, x, y = heapq.heappop(minHeap)
-            result.append([x,y])
-            k -= 1
-        return result
-print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
-#---------------------------------------------------------------------------------------------
-import heapq
-class Solution:
-    def kClosest(self, points, k):
-        heap = []
-        for x, y in points:
-            dist = x**2 + y**2
-            if len(heap) < k:
-                heapq.heappush(heap, (-dist, x, y))
-            else:
-                heapq.heappushpop(heap, (-dist, x, y))
-                
-        return [[x, y] for dist, x, y in heap]
 print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
