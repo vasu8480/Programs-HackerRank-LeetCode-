@@ -108,36 +108,37 @@ class Sorting_Algorithms:
     #approach: heapify means to create a heap from the array
     #time complexity: O(nlogn) worst case: O(nlogn)
     def heapify(self,arr, n, i):
-        largest = i
-        l = 2 * i + 1
-        r = 2 * i + 2
+        largest = i # Initialize largest as root
+        l = 2 * i + 1 # left child index
+        r = 2 * i + 2 # right child index
 
-        if l < n and arr[largest] < arr[l]:
-            largest = l
+        if l < n and arr[largest] < arr[l]: # check if left child is larger than root
+            largest = l # change the largest index
 
-        if r < n and arr[largest] < arr[r]:
-            largest = r
+        if r < n and arr[largest] < arr[r]: # check if right child is larger than root
+            largest = r # change the largest index
 
-        if largest != i:
-            arr[i], arr[largest] = arr[largest], arr[i]
-            self.heapify(arr, n, largest)
+        if largest != i:    # if largest is not root
+            arr[i], arr[largest] = arr[largest], arr[i] # swap
+            self.heapify(arr, n, largest)   # heapify the root
             
     def heapSort(self,arr):
         n = len(arr)
         # Build a MAX_HEAP.
-        for i in range(n, -1, -1):
-            self.heapify(arr, n, i)
+        for i in range(n, -1, -1):  # start from the last parent node
+            self.heapify(arr, n, i) # heapify the tree
+            #print("max heap",arr)
         # Swap nodes with root to sort
-        for i in range(n-1, 0, -1):
-            arr[i], arr[0] = arr[0], arr[i]
-            self.heapify(arr, i, 0)
+        for i in range(n-1, 0, -1): # start from the last node
+            arr[i], arr[0] = arr[0], arr[i] # swap
+            self.heapify(arr, i, 0) # heapify the tree
+            #print("sorted",arr)
         return arr
 
 s=Sorting_Algorithms()
-print(s.bubbleSort([8,69,89,85,7885,146,4,464,678,648,875,47,845,8474,854,785,74,548,44,78,75]))
-print(s.selectionSort([8,69,89,85,7885,146,4,464,678,648,875,47,845,8474,854,785,74,548,44,78,75]))
-print(s.selectionSort2([8,69,89,85,7885,146,4,464,678,648,875,47,845,8474,854,785,74,548,44,78,75]))
-print(s.insertionSort([8,69,89,85,7885,146,4,464,678,648,875,47,845,8474,854,785,74,548,44,78,75]))
-print(s.mergeSort([8,69,89,85,7885,146,4,464,678,648,875,47,845,8474,854,785,74,548,44,78,75]))
-print(s.quickSort([8,69,89,85,7885,146,4,464,678,648,875,47,845,8474,854,785,74,548,44,78,75]))
-print(s.heapSort([8,69,89,85,7885,146,4,464,678,648,875,47,845,8474,854,785,74,548,44,78,75]))
+print(s.bubbleSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
+print(s.selectionSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
+print(s.insertionSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
+print(s.mergeSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
+print(s.quickSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
+print(s.heapSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
