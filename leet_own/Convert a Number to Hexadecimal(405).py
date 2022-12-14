@@ -16,4 +16,3 @@ class Solution:
             num >>= 4
         return s
 print(Solution().toHex(26))
-
