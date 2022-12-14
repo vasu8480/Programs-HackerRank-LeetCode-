@@ -3,10 +3,8 @@ class Solution:
         points.sort(key=lambda P: P[0]**2 + P[1]**2)    # sort the points based on the distance from the origin 
         #for 3,3 it is 18 and for 5,-1 it is 26  and for -2,4 it is 20 sorted as [3,3] [-2,4] [5,-1]
         return points[:k]
-
 print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
 #--------------------------------------------------------------------------------------------
-
 import heapq
 class Solution:
     def kClosest(self, points, k):
@@ -36,7 +34,6 @@ class Solution:
                 
         return [[x, y] for dist, x, y in heap]
 print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
-
 #-------------------------------------------------------------------------------------------------
 class Solution:
     def kClosest(self, points, k):
@@ -48,7 +45,6 @@ class Solution:
             left = divideAndConquer(points[:mid])
             right = divideAndConquer(points[mid:])
             return merge(left, right)
-        
         def merge(left, right):
             i = j = 0
             result = []
