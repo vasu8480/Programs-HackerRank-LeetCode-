@@ -1,13 +1,27 @@
-from typing import List
+if len(nums) == 1:
+            return nums
+        midPoint = int(len(nums)/2) 
+        leftPart = nums[:midPoint]
+        rightPart = nums[midPoint:] 
+        return self.merge(self.merge(leftPart), self.merge(rightPart))
+    def merge(self,arr1, arr2):
+        firstPointer = 0 
+        secondPointer = 0 
+        mergedList = [] 
 
-class Solution:
-    def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
-        people = list(zip(names, heights))
-        people.sort(key=lambda x: (-x[1], x[0]))
-        return [name for name, height in people]
-print(Solution().sortPeople(["Mary","John","Emma"],[180,165,170]))
-#--------------------------------------------------------------
-class Solution:
-    def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
-        return [row[1] for row in sorted(zip(heights, names), reverse = True)]
-print(Solution().sortPeople(names = ["Mary","John","Emma"], heights = [180,165,170]))
+        while firstPointer < len(arr1) and secondPointer < len(arr2):
+            if arr1[firstPointer] < arr2[secondPointer]:
+                mergedList.append(arr1[firstPointer]) 
+                firstPointer += 1
+            else:
+                mergedList.append(arr2[secondPointer]) 
+                secondPointer += 1 
+        while firstPointer < len(arr1): 
+            mergedList.append(arr1[firstPointer])
+            firstPointer += 1
+
+        while secondPointer < len(arr2):
+            mergedList.append(arr2[secondPointer])
+            secondPointer += 1
+
+        return mergedList
