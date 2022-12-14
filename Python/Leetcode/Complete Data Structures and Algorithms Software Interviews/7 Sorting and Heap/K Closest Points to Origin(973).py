@@ -12,13 +12,14 @@ class Solution:
         for x,y in points:
             distanceToOrigin = (x**2) + (y**2) #do not have to take sqrt because we will compare anyway
             minHeap.append([distanceToOrigin,x,y]) #append distance as first element bc python will evaluate it by default when heapified
-        heapq.heapify(minHeap)
+        heapq.heapify(minHeap)  #heapify the list means it will be sorted by the first element of the list
+        
         result = []
         while k > 0:
-            distance, x, y = heapq.heappop(minHeap)
-            result.append([x,y])
+            distance, x, y = heapq.heappop(minHeap) #pop the first element of the list
+            result.append([x,y])  #append the x and y coordinates
             k -= 1
-        return result
+        return result 
 print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
 #---------------------------------------------------------------------------------------------
 import heapq
@@ -28,11 +29,11 @@ class Solution:
         for x, y in points:
             dist = x**2 + y**2
             if len(heap) < k:
-                heapq.heappush(heap, (-dist, x, y))
+                heapq.heappush(heap, (-dist, x, y)) #push the distance as negative because we want to sort in descending order
             else:
-                heapq.heappushpop(heap, (-dist, x, y))
+                heapq.heappushpop(heap, (-dist, x, y))  #push the distance as negative because we want to sort in descending order
                 
-        return [[x, y] for dist, x, y in heap]
+        return [[x, y] for dist, x, y in heap]  #return the x and y coordinates
 print(Solution().kClosest([[3,3],[5,-1],[-2,4]],2))
 #-------------------------------------------------------------------------------------------------
 class Solution:
