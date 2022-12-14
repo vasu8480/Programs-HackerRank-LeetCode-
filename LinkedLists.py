@@ -44,14 +44,14 @@ class LinkedList:
             self.root = node
             return
         self.reverse(node.next) #recursively call the reverse function
-        node.next.next = node 
-        node.next = None
+        node.next.next = node   #point the next node to the current node
+        node.next = None    #point the current node to None
 
     def deleteNode(self, position): #delete the node at the given position
         if position == 0: 
-            self.root = self.root.next
+            self.root = self.root.next #point the root to the next node
         else:
-            current = self.root 
+            current = self.root  
             for i in range(position-1): #loop through the list until the position is reached
                 current = current.next #move to the next node
             current.next = current.next.next #point the current node to the node after the node to be deleted

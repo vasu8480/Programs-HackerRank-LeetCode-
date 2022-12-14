@@ -69,27 +69,59 @@ A.When i was in my 2 sec sem i bunked
 
 #mind map- a diagram used to represent words, ideas, tasks, or other items linked to and arranged around a central key word or idea.
 #Covid-19 is discoverd in 2019.
-#coronavirus is a family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).
-#coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
-#most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.
-#older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
-#the best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.
-#the COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
-#at this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.
-#people can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.
-#symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.
-#stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.
-#national and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.
-#keep up to date on the latest information from trusted sources, such as WHO or your local and national health authorities. Local and national authorities and public health units are best placed to advise on what people in your area should be doing to protect themselves.
-#to prevent the spread of COVID-19:
-*clean your hands often. Use soap and water, or an alcohol-based hand rub.
-*maintain a safe distance from anyone who is coughing or sneezing.
-*wash your hands regularly.
-*cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.
-*stay home if you feel unwell.
-*if you have a fever, cough and difficulty breathing, seek medical attention.
-#avoiding unneeded visits to medical facilities allows healthcare systems to operate more effectively and helps protect you and others from possible COVID-19 and other viruses.
-#stay informed and follow advice given by your healthcare provider.
-#practice respiratory hygiene.
-#if you have fever, cough and difficulty breathing, seek medical care early, but call by telephone first.
-#stay informed and follow advice given by your healthcare provider.
+#covid-19
+The first case was discovered in dec 2019.
+The virus causes severe illiness,fever,cough,difficulty in breathing headache.
+People who got covid suffers from mild resipratory illness.
+The challenges faced are unemployement,decline growth,Education of students.
+This diesase can spread from one person to another by physical contact.
+millions of people died due to covid and many people are affected and many were fallen  under proverty.
+
+
+When a person in the family died the members in the family were not able to collect the body due to the spread of covid
+Doctors and nurses became a frontline warriors to save people.
+The government provides the saftey precausion and made people quarantine for few months to decrease covid cases or spread.
+some of the preventions are:
+	Vacination.
+	cover your nose and mouth with your elbow or a tissue when you cough or sneeze.
+	if you have a fever, cough and difficulty breathing, seek medical attention.
+	stay home if you feel unwell.
+	clean your hands often. Use soap and water, or an alcohol-based hand rub.
+	Be in quartine.
+
+wearing a mask in public, social distancing.
+	avoid large gathering.
+	medication	s
+	avoid close contact with people eho are affected.
+	use hot water for driking and eat health food.
+	Stay informed and follow the advice of your doctor.
+
+Hospitals are facing difficuties in maintainf the qaulity of healthcare to the people.
+We cant travel to other countires and cites.
+Beacuse of coid he habituvate to eat helath food.
+People who are in quaratine facing some mental issues.
+Use of public transport reduced due to covid
+Due to the pandameic many it sectors like education and it sectors were affected.
+	
+
+#day3
+Listening is the process of receiving, constructing meaning from, and responding to spoken and/or nonverbal messages.
+superficial listening is listening to the words only.
+content listening is listening to the words and the meaning.
+deep listening is listening to the words, the meaning and the feeling.
+
+
+#The future of aritificial intelligence
+Transportation: Tesla is already using AI to help its cars drive themselves, and it’s not alone. Google’s self-driving cars are also using AI to help them navigate the roads. In the future, AI will help cars drive themselves, and it will help them communicate with each other to avoid accidents.
+
+Manufacturing:  Robots are already used in manufacturing, but they’re about to get a lot smarter. They’ll be able to work alongside humans, and they’ll be able to learn from their mistakes.
+
+Healthcare:  AI is already being used to help doctors diagnose patients, and it’s about to get a lot better. AI will be able to help doctors make better diagnoses, and it will be able to help them make better decisions about treatment.
+
+Education: Textbooks are digitized with the help of AI
+
+Customer Service: AI is already being used to help companies provide better customer service, and it’s about to get a lot better. AI will be able to help companies provide better customer service, and it will be able to help them provide better customer service.
+
+Conclusion:
+	Ai is the future of the world and a trending and emerging technology.many of the sectors are using ai to make the world a better place to live in.I conclude that it is a great technology, but it must be used, without being harmful, in a limited way for it to work effectively.
+	
