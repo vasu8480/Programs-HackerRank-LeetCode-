@@ -114,7 +114,7 @@ deep listening is listening to the words, the meaning and the feeling.
 #The future of aritificial intelligence
 AI is evolving day by day and it is believed that in the near future, artificial intelligence is going to change human life very drastically.
 With the help of A.I, machines will be able to learn, solve problems, plan things, think, etc.
-Application areas of artificial intelligence are having a huge impact on various fields of life to solve complex problems in various areas such as
+Application areas of ai are having a huge impact on various fields of life to solve complex problems. the various areas such as
 
 Transportation: Tesla is already using AI to help its cars drive themselves, and it’s not alone. Google’s self-driving cars are also using AI to help them navigate the roads. In the future, AI will help cars drive themselves, and it will help them communicate with each other to avoid accidents.
 
@@ -124,7 +124,7 @@ Healthcare:  AI is already being used to help doctors diagnose patients, and it�
 
 Education: Textbooks are digitized with the help of AI
 
-Customer Service: AI is already being used to help companies provide better customer service. AI will be able to help companies provide better customer service, and it will be able to help them provide better customer service.
+Customer Service: AI is already being used to help companies provide better customer service. AI will be able to help companies provide better customer service.
 
 behind it's pro's there are some cons it can be dangerous for us. If we become completely dependent on machines, then it can ruin our life. We will not be able to do any work by ourselves and made us lazy. Another disadvantage is that it cannot give a human-like feeling. So machines should be used only where they are actually required.
 
