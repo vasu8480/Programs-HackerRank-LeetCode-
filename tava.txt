@@ -1,143 +1,144 @@
-H.A.L.T - hungry, angry, loney,time 
+week-1:
+	H.A.L.T - hungry, angry, loney,time 
 
-cob-closé of bussiness
-tbd-to be determined
-lat-late
-tba-to be announced
-tbc-to be continued
-ctn-cant talk now
-tia-thnks in adavance
-qt-quiet
-aatn-are you there now
-cc- carbon copy
-bcc- blind carbon copy
+	cob-closé of bussiness
+	tbd-to be determined
+	lat-late
+	tba-to be announced
+	tbc-to be continued
+	ctn-cant talk now
+	tia-thnks in adavance
+	qt-quiet
+	aatn-are you there now
+	cc- carbon copy
+	bcc- blind carbon copy
 
-#Tavant has a new client who wants to create a business website. You had a client requirement gathering and you are supposed to send the Minutes of the Meeting (MOM) to the client. The requirements provided by the clients are as below:
-Purpose – Business, online shopping.Color Scheme – maximum 3-4 colors, 2 can be black or white, preferably white. Other 2 can match with the logo.Font size – depending on the content and material. Must be professional and easily readable. Images – eye catching which gives a wow factor. Photos will be provided by the clients. Mock-ups – A pen and paper sketch would be provided in a weeks’ time. Help required from the developers also on this. Need to see some samples and would want some suggestions.Text Content – The details will be provided in word format in 2 days.Logo – Already purchased. Need it on the right-side top.Domain and Hosting – Not purchased yet. Would be requiring it from Tavant’s side.
+	#Tavant has a new client who wants to create a business website. You had a client requirement gathering and you are supposed to send the Minutes of the Meeting (MOM) to the client. The requirements provided by the clients are as below:
+	Purpose – Business, online shopping.Color Scheme – maximum 3-4 colors, 2 can be black or white, preferably white. Other 2 can match with the logo.Font size – depending on the content and material. Must be professional and easily readable. Images – eye catching which gives a wow factor. Photos will be provided by the clients. Mock-ups – A pen and paper sketch would be provided in a weeks’ time. Help required from the developers also on this. Need to see some samples and would want some suggestions.Text Content – The details will be provided in word format in 2 days.Logo – Already purchased. Need it on the right-side top.Domain and Hosting – Not purchased yet. Would be requiring it from Tavant’s side.
 
-subject: Minutes of meeting(MOM) with the client on week1.
-Dear Client,
-	Thank you for choosing Tavant. We appreciate your trust.
-	We attended the meeting with our team. During Minutes of the Meeting (MOM), The following requirements were captured for an online shopping site:
-	*The purpose of the website is to sell products online.
-	*Websites should be white or black, and max 3-4 colors.
-	*The font size should be professional and easily readable.
-	*It is important to have eye-catching images
-	*Our developers will provide mockups in a week time.
-	*The client will provide the text content in two days.
-	*The logo is already purchased.
-	*The client has not purchased the domain and hosting, Tavant will provide them.
-	
-	Please review the above minutes and let us know if any changes need to be made. We are looking forward to your confirmation within two days.
+	subject: Minutes of meeting(MOM) with the client on week1.
+	Dear Client,
+		Thank you for choosing Tavant. We appreciate your trust.
+		We attended the meeting with our team. During Minutes of the Meeting (MOM), The following requirements were captured for an online shopping site:
+		*The purpose of the website is to sell products online.
+		*Websites should be white or black, and max 3-4 colors.
+		*The font size should be professional and easily readable.
+		*It is important to have eye-catching images
+		*Our developers will provide mockups in a week time.
+		*The client will provide the text content in two days.
+		*The logo is already purchased.
+		*The client has not purchased the domain and hosting, Tavant will provide them.
+		
+		Please review the above minutes and let us know if any changes need to be made. We are looking forward to your confirmation within two days.
 
-Thank you and Regards,
-Nurukurthi Vasu,
-p.s. I am attaching the minutes of the meeting for your reference.
-18A91A0498@aec.edu.in
-Morning batch,
-week 1.
-
-
-#week-2
-day1:
-people- whom we are speaking to,what the person think,attitude,behaviour,language,words,voice,etc.hort and clear,tone of voice,words,etc., avoid using jargons.
-message-is it to be mentioned in the message or not.what we are saying,what we want to say,what we want to convey,etc.,
-Context-where we are speaking,what is the situation,what is the environment,etc.,
-Listening-what we are hearing,what we are understanding,what we are feeling,etc.,
-
-open ended questions-questions which can be answered in more than one word.
-closed ended questions-questions which can be answered in one word.
-leading questions-questions which are asked to get a particular answer.
-
-rapo-relationship,approach,position,objective
-rapo is to understand the person we are speaking to.
-activelistening is to understand the message.
-bulidingrapo is to understand the context.
-
-#just a minute
-Q.Bad experience
-A.When i was in my 2 sec sem i bunked 
+	Thank you and Regards,
+	Nurukurthi Vasu,
+	p.s. I am attaching the minutes of the meeting for your reference.
+	18A91A0498@aec.edu.in
+	Morning batch,
+	week 1.
 
 
-#day2
-#passive style of communication means agreeing with the other person without any reason.
-#negative style of communication means disagreeing with the other person without any reason.
+#week-2:
+	day1:
+			people- whom we are speaking to,what the person think,attitude,behaviour,language,words,voice,etc.hort and clear,tone of voice,words,etc., avoid using jargons.
+			message-is it to be mentioned in the message or not.what we are saying,what we want to say,what we want to convey,etc.,
+			Context-where we are speaking,what is the situation,what is the environment,etc.,
+			Listening-what we are hearing,what we are understanding,what we are feeling,etc.,
 
-#positive style of communication means agreeing with the other person with a reason.
-#(recommended mode)assertive style of communication means disagreeing with the other person with a reason.
-#agressive style of communication means disagreeing with the other person with a reason and also being rude.
+			open ended questions-questions which can be answered in more than one word.
+			closed ended questions-questions which can be answered in one word.
+			leading questions-questions which are asked to get a particular answer.
 
+			rapo-relationship,approach,position,objective
+			rapo is to understand the person we are speaking to.
+			activelistening is to understand the message.
+			bulidingrapo is to understand the context.
 
-
-#mind map- a diagram used to represent words, ideas, tasks, or other items linked to and arranged around a central key word or idea.
-#Covid-19 is discoverd in 2019.
-#covid-19
-The first case was discovered in dec 2019.
-The virus causes severe illiness,fever,cough,difficulty in breathing headache.
-People who got covid suffers from mild resipratory illness.
-The challenges faced are unemployement,decline growth,Education of students.
-This diesase can spread from one person to another by physical contact.
-millions of people died due to covid and many people are affected and many were fallen  under proverty.
-
-
-When a person in the family died the members in the family were not able to collect the body due to the spread of covid
-Doctors and nurses became a frontline warriors to save people.
-The government provides the saftey precausion and made people quarantine for few months to decrease covid cases or spread.
-some of the preventions are:
-	Vacination.
-	cover your nose and mouth with your elbow or a tissue when you cough or sneeze.
-	if you have a fever, cough and difficulty breathing, seek medical attention.
-	stay home if you feel unwell.
-	clean your hands often. Use soap and water, or an alcohol-based hand rub.
-	Be in quartine.
-
-wearing a mask in public, social distancing.
-	avoid large gathering.
-	medication	s
-	avoid close contact with people eho are affected.
-	use hot water for driking and eat health food.
-	Stay informed and follow the advice of your doctor.
-
-Hospitals are facing difficuties in maintainf the qaulity of healthcare to the people.
-We cant travel to other countires and cites.
-Beacuse of coid he habituvate to eat helath food.
-People who are in quaratine facing some mental issues.
-Use of public transport reduced due to covid
-Due to the pandameic many it sectors like education and it sectors were affected.
-	
-
-#day3
-Listening is the process of receiving, constructing meaning from, and responding to spoken and/or nonverbal messages.
-superficial listening is listening to the words only.
-content listening is listening to the words and the meaning.
-deep listening is listening to the words, the meaning and the feeling.
+			#just a minute
+			Q.Bad experience
+			A.When i was in my 2 sec sem i bunked my class and went to my home town and i was caught by my parents and i was punished by my parents.
 
 
-#The future of aritificial intelligence
-#The future of aritificial intelligence
-AI is evolving day by day and it is believed that in the near future, ai is going to change human life very drastically.
-With the help of A.I, machines will be able to learn, solve problems, plan things, think, etc.
-Application areas of ai are having a huge impact on various fields of life to solve complex problems. the various areas such as
+	#day2
+			#passive style of communication means agreeing with the other person without any reason.
+			#negative style of communication means disagreeing with the other person without any reason.
 
-Transportation: Tesla is already using AI to help its cars drive themselves, and it’s not alone. Google’s self-driving cars are also using AI to help them navigate the roads. In the future, AI will help cars drive themselves, and it will help them communicate with each other to avoid accidents.
+			#positive style of communication means agreeing with the other person with a reason.
+			#(recommended mode)assertive style of communication means disagreeing with the other person with a reason.
+			#agressive style of communication means disagreeing with the other person with a reason and also being rude.
 
-Manufacturing:  Robots are already used in manufacturing, but they’re about to get a lot smarter. They’ll be able to work alongside humans, and they’ll be able to learn from their mistakes.
 
-Healthcare:  AI is already being used to help doctors diagnose patients, and it’s about to get a lot better. AI will be able to help doctors make better diagnoses, and it will be able to help them make better decisions about treatment.
 
-Education: Textbooks are digitized with the help of AI
+			#mind map- a diagram used to represent words, ideas, tasks, or other items linked to and arranged around a central key word or idea.
+			#Covid-19 is discoverd in 2019.
+			#covid-19
+			The first case was discovered in dec 2019.
+			The virus causes severe illiness,fever,cough,difficulty in breathing headache.
+			People who got covid suffers from mild resipratory illness.
+			The challenges faced are unemployement,decline growth,Education of students.
+			This diesase can spread from one person to another by physical contact.
+			millions of people died due to covid and many people are affected and many were fallen  under proverty.
 
-Customer Service: AI is already being used to help companies provide better customer service. 
 
-behind it's pro's there are some cons it can be dangerous for us. If we become completely dependent on machines, then it can ruin our life. We will not be able to do any work by ourselves and made us lazy. Another disadvantage is that it cannot give a human-like feeling. So machines should be used only where they are actually required.
+			When a person in the family died the members in the family were not able to collect the body due to the spread of covid
+			Doctors and nurses became a frontline warriors to save people.
+			The government provides the saftey precausion and made people quarantine for few months to decrease covid cases or spread.
+			some of the preventions are:
+				Vacination.
+				cover your nose and mouth with your elbow or a tissue when you cough or sneeze.
+				if you have a fever, cough and difficulty breathing, seek medical attention.
+				stay home if you feel unwell.
+				clean your hands often. Use soap and water, or an alcohol-based hand rub.
+				Be in quartine.
 
-Conclusion:
-	Ai is the  emerging technology for many of the sectors. I conclude that it is a great technology, but it must be used, without being harmful as long as we manage to keep the technology beneficial, and we have limited way for it to work effectively.
+			wearing a mask in public, social distancing.
+				avoid large gathering.
+				medication	s
+				avoid close contact with people eho are affected.
+				use hot water for driking and eat health food.
+				Stay informed and follow the advice of your doctor.
 
-#day4
-#standup calls- a meeting in which all the members of the team are present and they discuss about the work they have done and the work they have to do.
-	*challenges faced
-	*work done,work to be done
-	*updates
-	*dependencies
-	*outcome
+			Hospitals are facing difficuties in maintainf the qaulity of healthcare to the people.
+			We cant travel to other countires and cites.
+			Beacuse of coid he habituvate to eat helath food.
+			People who are in quaratine facing some mental issues.
+			Use of public transport reduced due to covid
+			Due to the pandameic many it sectors like education and it sectors were affected.
+		
+
+	#day3
+			Listening is the process of receiving, constructing meaning from, and responding to spoken and/or nonverbal messages.
+			superficial listening is listening to the words only.
+			content listening is listening to the words and the meaning.
+			deep listening is listening to the words, the meaning and the feeling.
+
+
+			#The future of aritificial intelligence
+			#The future of aritificial intelligence
+			AI is evolving day by day and it is believed that in the near future, ai is going to change human life very drastically.
+			With the help of A.I, machines will be able to learn, solve problems, plan things, think, etc.
+			Application areas of ai are having a huge impact on various fields of life to solve complex problems. the various areas such as
+
+			Transportation: Tesla is already using AI to help its cars drive themselves, and it’s not alone. Google’s self-driving cars are also using AI to help them navigate the roads. In the future, AI will help cars drive themselves, and it will help them communicate with each other to avoid accidents.
+
+			Manufacturing:  Robots are already used in manufacturing, but they’re about to get a lot smarter. They’ll be able to work alongside humans, and they’ll be able to learn from their mistakes.
+
+			Healthcare:  AI is already being used to help doctors diagnose patients, and it’s about to get a lot better. AI will be able to help doctors make better diagnoses, and it will be able to help them make better decisions about treatment.
+
+			Education: Textbooks are digitized with the help of AI
+
+			Customer Service: AI is already being used to help companies provide better customer service. 
+
+			behind it's pro's there are some cons it can be dangerous for us. If we become completely dependent on machines, then it can ruin our life. We will not be able to do any work by ourselves and made us lazy. Another disadvantage is that it cannot give a human-like feeling. So machines should be used only where they are actually required.
+
+			Conclusion:
+				Ai is the  emerging technology for many of the sectors. I conclude that it is a great technology, but it must be used, without being harmful as long as we manage to keep the technology beneficial, and we have limited way for it to work effectively.
+
+	#day4
+			#standup calls- a meeting in which all the members of the team are present and they discuss about the work they have done and the work they have to do.
+				*challenges faced
+				*work done,work to be done
+				*updates
+				*dependencies
+				*outcome
