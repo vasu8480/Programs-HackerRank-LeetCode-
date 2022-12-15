@@ -31,5 +31,3 @@ class Solution:
             return max(nums)
 print(Solution().thirdMax([3,2,1]))
 print(Solution().thirdMax([1,2]))
-
-
