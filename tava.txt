@@ -40,7 +40,7 @@ week 1.
 
 #week-2
 day1:
-people- whom we are speaking to,what the person think,attitude,behaviour,language,words,voice,etc.
+people- whom we are speaking to,what the person think,attitude,behaviour,language,words,voice,etc.hort and clear,tone of voice,words,etc., avoid using jargons.
 message-is it to be mentioned in the message or not.what we are saying,what we want to say,what we want to convey,etc.,
 Context-where we are speaking,what is the situation,what is the environment,etc.,
 Listening-what we are hearing,what we are understanding,what we are feeling,etc.,
@@ -51,6 +51,8 @@ leading questions-questions which are asked to get a particular answer.
 
 rapo-relationship,approach,position,objective
 rapo is to understand the person we are speaking to.
+activelistening is to understand the message.
+bulidingrapo is to understand the context.
 
 #just a minute
 Q.Bad experience
@@ -62,10 +64,10 @@ A.When i was in my 2 sec sem i bunked
 #negative style of communication means disagreeing with the other person without any reason.
 
 #positive style of communication means agreeing with the other person with a reason.
-#assertive style of communication means disagreeing with the other person with a reason.
-#empathetic style of communication means agreeing with the other person with a reason and disagreeing with the other person with a reason.
-#polite style of communication means agreeing with the other person without a reason and disagreeing with the other person without a reason.
-#escalation of communication means disagreeing with the other person with a reason and agreeing with the other person with a reason.
+#(recommended mode)assertive style of communication means disagreeing with the other person with a reason.
+#agressive style of communication means disagreeing with the other person with a reason and also being rude.
+
+
 
 #mind map- a diagram used to represent words, ideas, tasks, or other items linked to and arranged around a central key word or idea.
 #Covid-19 is discoverd in 2019.
@@ -112,7 +114,8 @@ deep listening is listening to the words, the meaning and the feeling.
 
 
 #The future of aritificial intelligence
-AI is evolving day by day and it is believed that in the near future, artificial intelligence is going to change human life very drastically.
+#The future of aritificial intelligence
+AI is evolving day by day and it is believed that in the near future, ai is going to change human life very drastically.
 With the help of A.I, machines will be able to learn, solve problems, plan things, think, etc.
 Application areas of ai are having a huge impact on various fields of life to solve complex problems. the various areas such as
 
@@ -124,10 +127,18 @@ Healthcare:  AI is already being used to help doctors diagnose patients, and itâ
 
 Education: Textbooks are digitized with the help of AI
 
-Customer Service: AI is already being used to help companies provide better customer service. AI will be able to help companies provide better customer service.
+Customer Service: AI is already being used to help companies provide better customer service. 
 
 behind it's pro's there are some cons it can be dangerous for us. If we become completely dependent on machines, then it can ruin our life. We will not be able to do any work by ourselves and made us lazy. Another disadvantage is that it cannot give a human-like feeling. So machines should be used only where they are actually required.
 
 Conclusion:
-	Ai is the  emerging technology for many of the sectors. I conclude that it is a great technology, but it must be used, without being harmful as long as we manage to keep the technology beneficial, and in a limited way for it to work effectively.
-	 
+	Ai is the  emerging technology for many of the sectors. I conclude that it is a great technology, but it must be used, without being harmful as long as we manage to keep the technology beneficial, and we have limited way for it to work effectively.
+
+#day4
+#standup calls- a meeting in which all the members of the team are present and they discuss about the work they have done and the work they have to do.
+	*challenges faced
+	*work done,work to be done
+	*updates
+	*dependencies
+	*outcome
+
