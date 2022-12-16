@@ -132,13 +132,13 @@ class Sorting_Algorithms:
         for i in range(n-1, 0, -1): # start from the last node
             arr[i], arr[0] = arr[0], arr[i] # swap
             self.heapify(arr, i, 0) # heapify the tree
-            #print("sorted",arr)
+            #0print("sorted",arr)
         return arr
 
 s=Sorting_Algorithms()
-print(s.bubbleSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
-print(s.selectionSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
-print(s.insertionSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
-print(s.mergeSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
-print(s.quickSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
-print(s.heapSort([56,89,45,78,12,36,47,63,25,37,2,69,48,57,11]))
+print(s.bubbleSort([87,9,8,7,65,54,82,11]))
+print(s.selectionSort([87,9,8,7,65,54,82,11]))
+print(s.insertionSort([87,9,8,7,65,54,82,11]))
+print(s.mergeSort([87,9,8,7,65,54,82,11]))
+print(s.quickSort([87,9,8,7,65,54,82,11]))
+print(s.heapSort([87,9,8,7,65,54,82,11]))
