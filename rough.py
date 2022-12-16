@@ -134,6 +134,36 @@ class Sorting_Algorithms:
             self.heapify(arr, i, 0) # heapify the tree
             #0print("sorted",arr)
         return arr
+    
+    #Radix sort
+    #time complexity: O(nk) where n is the number of elements and k is the number of digits
+    #space complexity: O(n+k)
+    def radixSort(self,arr):
+        maxElement = max(arr)
+        placeValue = 1
+        while maxElement//placeValue > 0:
+            self.countSort(arr, placeValue)
+            placeValue *= 10
+        return arr
+
+    def countSort(self,arr, placeValue):
+        output = [0] * len(arr)
+        count = [0] * 10
+        for i in range(len(arr)):
+            index = arr[i] // placeValue
+            count[index % 10] += 1
+        for i in range(1, 10):
+            count[i] += count[i - 1]
+        i = len(arr) - 1
+        while i >= 0:
+            index = arr[i] // placeValue
+            output[count[index % 10] - 1] = arr[i]
+            count[index % 10] -= 1
+            i -= 1
+        for i in range(len(arr)):
+            arr[i] = output[i]
+
+
 
 s=Sorting_Algorithms()
 print(s.bubbleSort([87,9,8,7,65,54,82,11]))
@@ -142,3 +172,4 @@ print(s.insertionSort([87,9,8,7,65,54,82,11]))
 print(s.mergeSort([87,9,8,7,65,54,82,11]))
 print(s.quickSort([87,9,8,7,65,54,82,11]))
 print(s.heapSort([87,9,8,7,65,54,82,11]))
+print(s.radixSort([87,9,8,7,65,54,82,11]))
