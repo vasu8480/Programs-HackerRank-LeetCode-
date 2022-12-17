@@ -11,9 +11,9 @@ class Solution:
         minHeap = []
         for x,y in points:
             distanceToOrigin = (x**2) + (y**2) #do not have to take sqrt because we will compare anyway
-            minHeap.append([distanceToOrigin,x,y]) #append distance as first element bc python will evaluate it by default when heapified
+            minHeap.append([distanceToOrigin,x,y]) #append distance as first element
         heapq.heapify(minHeap)  #heapify the list means it will be sorted by the first element of the list
-        
+        #print(minHeap)#[[18, 3, 3], [26, 5, -1], [20, -2, 4]]
         result = []
         while k > 0:
             distance, x, y = heapq.heappop(minHeap) #pop the first element of the list
